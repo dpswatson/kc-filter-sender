@@ -1,4 +1,4 @@
-# kc-filter-sender
+# kc-senderblock
 A Bash script for Kerio Connect servers to filter senders from messages that users have marked as spam.
 
 This script addresses what many users perceive as a deficiency in Kerio Connect: Even after they've marked messages as spam, there is still a very good chance that they will receive new messages from the same sender. KC actually uses the cumulative spam/not spam desgnations to train the Beyesian filter built into SpamAssassin, but does not set a block on the sender. If a message with the same sender and recipient is received again, there is a good chance that the server will still not recognize it as spam.
