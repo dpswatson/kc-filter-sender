@@ -1,2 +1,2 @@
 watchfor /marked a message as|moved a message to Junk E-mail/
-	pipe /opt/ni/spamsenderblock/spamsenderblock.bash
+	pipe /opt/senderblock/senderblock.bash
